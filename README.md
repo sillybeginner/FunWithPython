@@ -1,2 +1,3 @@
 # FunWithPython
-fun with python using turtle
+Exciting Python Projects for beginner
+
