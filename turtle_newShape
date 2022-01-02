@@ -1,0 +1,17 @@
+import turtle
+from random import randint
+
+w = turtle.Screen()
+w.title('Something Round Round!')
+turtle.colormode(255)
+t = turtle.Pen()
+turtle.bgcolor('black')
+
+for i in range(360):
+   t.color(randint(0, 255), randint(0, 255) , randint(0,255))
+   t.speed(50)
+   t.width(i//200 + 7)
+   t.forward(i)
+   t.right(250)
+
+turtle.exitonclick()
